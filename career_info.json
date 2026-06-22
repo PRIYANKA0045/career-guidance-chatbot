@@ -1,0 +1,322 @@
+{
+  "Developer": {
+    "description": "Software Developers design, build, and maintain software applications, websites, and digital systems. They use coding languages and logic to solve technical problems and create tools that power modern life.",
+    "roles": [
+      "Frontend Software Engineer",
+      "Backend Developer",
+      "Full Stack Developer",
+      "Mobile App Developer (iOS/Android)",
+      "DevOps / Cloud Engineer",
+      "Game Developer"
+    ],
+    "skills": [
+      "Programming Languages (Python, JavaScript, Java, C++)",
+      "Version Control (Git & GitHub)",
+      "Web Technologies (HTML, CSS, React, Node.js)",
+      "Database Management (SQL, NoSQL)",
+      "Software Architecture & Design Patterns",
+      "Problem Solving & Algorithm Design"
+    ],
+    "alternatives": [
+      "Analyst",
+      "Engineer",
+      "Researcher"
+    ],
+    "learning_path": [
+      "Learn a fundamental programming language like Python or JavaScript.",
+      "Build small personal projects to practice coding principles.",
+      "Understand version control (Git) and command line basics.",
+      "Learn about data structures, algorithms, and databases.",
+      "Specialise in a domain (e.g., Web, Mobile, Cloud, AI).",
+      "Create a portfolio on GitHub and contribute to open-source projects."
+    ]
+  },
+  "Designer": {
+    "description": "Designers combine art, technology, and empathy to create visually appealing and functional layouts, products, and user experiences. They focus on how users interact with websites, apps, and physical media.",
+    "roles": [
+      "UI/UX Designer",
+      "Product Designer",
+      "Graphic Designer",
+      "Brand / Identity Designer",
+      "Motion Graphics Designer",
+      "Web Designer"
+    ],
+    "skills": [
+      "Design Tools (Figma, Adobe Creative Suite)",
+      "Wireframing & Prototyping",
+      "User Research & Usability Testing",
+      "Visual Design Principles (Color Theory, Typography)",
+      "Information Architecture",
+      "Collaboration & Presentation"
+    ],
+    "alternatives": [
+      "Developer",
+      "Educator",
+      "Manager"
+    ],
+    "learning_path": [
+      "Master industry-standard design tools like Figma or Adobe Illustrator.",
+      "Study visual design fundamentals: grids, layouts, typography, and color harmony.",
+      "Learn user-centric design principles and user research methodologies.",
+      "Redesign existing websites/apps to practice and critique usability.",
+      "Build a strong visual portfolio on platforms like Behance or Dribbble.",
+      "Develop soft skills in presenting designs and receiving constructive criticism."
+    ]
+  },
+  "Analyst": {
+    "description": "Analysts interpret complex datasets, identify patterns, and draw actionable insights to help businesses make smart decisions. They act as a bridge between raw data and business strategy.",
+    "roles": [
+      "Data Analyst",
+      "Business Intelligence (BI) Analyst",
+      "Financial Analyst",
+      "Market Research Analyst",
+      "Operations Analyst",
+      "Systems Analyst"
+    ],
+    "skills": [
+      "Data Analysis Tools (Excel, SQL)",
+      "Data Visualization (Tableau, Power BI)",
+      "Programming for Data (Python, R)",
+      "Statistical Analysis & Hypothesis Testing",
+      "Business Domain Knowledge",
+      "Critical Thinking & Reporting"
+    ],
+    "alternatives": [
+      "Developer",
+      "Manager",
+      "Researcher"
+    ],
+    "learning_path": [
+      "Learn advanced Excel functions and master writing SQL queries.",
+      "Learn a data-oriented programming language (Python - Pandas/NumPy, or R).",
+      "Study basic statistics, probability, and analytical frameworks.",
+      "Learn data visualization tools like Tableau or Power BI to build dashboards.",
+      "Practice analyzing public datasets (e.g., from Kaggle) and writing summary reports.",
+      "Gain domain knowledge in finance, marketing, or business operations."
+    ]
+  },
+  "Manager": {
+    "description": "Managers coordinate teams, set project strategies, manage resources, and oversee operations to achieve business goals. They excel in communication, organization, leadership, and decision-making.",
+    "roles": [
+      "Product Manager",
+      "Project Manager (PMP)",
+      "Operations Manager",
+      "Scrum Master / Agile Coach",
+      "Marketing Manager",
+      "Business Development Manager"
+    ],
+    "skills": [
+      "Project Management Frameworks (Agile, Scrum, Kanban)",
+      "Leadership & Team Collaboration",
+      "Strategic Planning & Risk Management",
+      "Budgeting & Resource Allocation",
+      "Stakeholder Communication",
+      "Product Roadmap Design"
+    ],
+    "alternatives": [
+      "Analyst",
+      "Lawyer",
+      "Educator"
+    ],
+    "learning_path": [
+      "Understand project management methodologies (Agile, Scrum, Waterfall).",
+      "Develop core soft skills: conflict resolution, negotiation, and active listening.",
+      "Earn relevant certifications (e.g., Certified ScrumMaster, CAPM/PMP, or Prince2).",
+      "Practice organizing group events, club activities, or small team projects.",
+      "Learn how to define key performance indicators (KPIs) and track metrics.",
+      "Study corporate finance, business strategy, and product development lifecycles."
+    ]
+  },
+  "Engineer": {
+    "description": "Engineers apply physics, mathematics, and materials science to design, build, and test physical structures, machines, electrical systems, and hardware devices.",
+    "roles": [
+      "Mechanical Engineer",
+      "Robotics / Automation Engineer",
+      "Electrical / Electronics Engineer",
+      "Civil Engineer",
+      "Aerospace Engineer",
+      "Hardware Design Engineer"
+    ],
+    "skills": [
+      "Computer-Aided Design (CAD) Software (SolidWorks, AutoCAD)",
+      "Mathematical Modeling (MATLAB, Simulink)",
+      "Physics & Structural Mechanics",
+      "Systems Engineering & Testing",
+      "Circuit Design & Electronics",
+      "Problem Solving & Analytical Thinking"
+    ],
+    "alternatives": [
+      "Developer",
+      "Researcher",
+      "Sports Professional"
+    ],
+    "learning_path": [
+      "Study advanced mathematics (calculus, linear algebra) and physics principles.",
+      "Learn a CAD software tool to create 3D models and structural drafts.",
+      "Participate in physical building projects (e.g., Arduino, 3D printing, robotics clubs).",
+      "Learn simulation tools like MATLAB or ANSYS to test designs digitally.",
+      "Understand safety regulations, materials engineering, and quality standards.",
+      "Pursue an engineering degree or practical apprenticeship in a chosen discipline."
+    ]
+  },
+  "Healthcare Professional": {
+    "description": "Healthcare Professionals provide medical care, diagnoses, treatment, and counseling to promote physical and mental well-being. They combine science with deep empathy.",
+    "roles": [
+      "Medical Doctor / Physician",
+      "Registered Nurse (RN)",
+      "Physical / Occupational Therapist",
+      "Pharmacist",
+      "Clinical Psychologist / Counselor",
+      "Biomedical Scientist"
+    ],
+    "skills": [
+      "Clinical Care & Diagnostics",
+      "Anatomy, Physiology & Pharmacology",
+      "Patient Communication & Empathy",
+      "Medical Record Keeping (EHR)",
+      "Emergency Medicine & First Aid",
+      "Critical Thinking under Pressure"
+    ],
+    "alternatives": [
+      "Researcher",
+      "Educator",
+      "Sports Professional"
+    ],
+    "learning_path": [
+      "Focus deeply on biology, chemistry, and anatomy coursework.",
+      "Gain experience through volunteering at clinics, hospitals, or nursing homes.",
+      "Earn standard CPR, First Aid, or basic lifesaving certifications.",
+      "Prepare for and take required professional admission tests (e.g., MCAT, NCLEX).",
+      "Develop patient interaction skills and empathy under stress.",
+      "Complete clinical rotations or internships under licensed healthcare providers."
+    ]
+  },
+  "Lawyer": {
+    "description": "Lawyers advise clients, represent them in legal proceedings, draft legal documents, and interpret laws. They use logical reasoning, research, and persuasive writing to advocate for justice.",
+    "roles": [
+      "Corporate Lawyer",
+      "Criminal Defense Attorney",
+      "Civil Litigator",
+      "Intellectual Property (IP) Counsel",
+      "Legal Advisor / Compliance Officer",
+      "Public Defender"
+    ],
+    "skills": [
+      "Legal Research & Database Search (Westlaw, LexisNexis)",
+      "Drafting Contracts & Legal Agreements",
+      "Persuasive Writing & Public Speaking",
+      "Critical Analysis & Case Synthesis",
+      "Negotiation & Dispute Resolution",
+      "Ethics & Compliance Knowledge"
+    ],
+    "alternatives": [
+      "Manager",
+      "Researcher",
+      "Educator"
+    ],
+    "learning_path": [
+      "Develop excellent reading comprehension, writing, and logical debate skills.",
+      "Study history, political science, philosophy, or constitutional law.",
+      "Prepare for and take the Law School Admission Test (LSAT).",
+      "Obtain a law degree (Juris Doctor or equivalent) from an accredited institution.",
+      "Gain experience through mock court trials, debate clubs, or legal internships.",
+      "Pass the regional bar examination to become licensed to practice law."
+    ]
+  },
+  "Educator": {
+    "description": "Educators inspire, instruct, and guide learners of various ages. They plan curriculums, explain complex ideas, and facilitate personal and professional growth.",
+    "roles": [
+      "School Teacher (Primary/Secondary)",
+      "University Professor / Lecturer",
+      "Corporate Trainer",
+      "Instructional Designer",
+      "Online Content Creator / Tutor",
+      "Special Education Teacher"
+    ],
+    "skills": [
+      "Pedagogy & Lesson Planning",
+      "Public Speaking & Presentation",
+      "Curriculum Design & Development",
+      "Classroom Management",
+      "Empathy & Active Listening",
+      "Assessment & Feedback Methods"
+    ],
+    "alternatives": [
+      "Manager",
+      "Healthcare Professional",
+      "Researcher"
+    ],
+    "learning_path": [
+      "Develop public speaking, storytelling, and explanation skills.",
+      "Master the subject area you want to teach (e.g., mathematics, languages, art).",
+      "Study educational psychology and instructional methodologies.",
+      "Practice by tutoring students or volunteer teaching in community programs.",
+      "Earn a teaching degree, certification, or corporate training license.",
+      "Learn digital teaching tools, learning management systems (LMS), and video tools."
+    ]
+  },
+  "Researcher": {
+    "description": "Researchers investigate scientific, academic, or social phenomena. They run experiments, gather evidence, analyze literature, and publish discoveries to advance human knowledge.",
+    "roles": [
+      "Scientific Researcher (Biotech/Pharma)",
+      "Data Scientist (Research & Development)",
+      "Academic Professor / Scholar",
+      "Policy Researcher / Think Tank Analyst",
+      "UX Researcher",
+      "Clinical Trials Coordinator"
+    ],
+    "skills": [
+      "Research Methodology & Experimental Design",
+      "Scientific Writing & Literature Review",
+      "Data Collection & Quantitative Analysis",
+      "Programming for Research (Python, R, MATLAB)",
+      "Grant Writing & Funding Applications",
+      "Critical Thinking & Attention to Detail"
+    ],
+    "alternatives": [
+      "Analyst",
+      "Developer",
+      "Healthcare Professional"
+    ],
+    "learning_path": [
+      "Read scientific journals and research papers in your field of interest.",
+      "Learn how to formulate hypotheses and design controlled experiments.",
+      "Master research statistics and quantitative analysis software (SPSS, R, Python).",
+      "Work as a research assistant in a laboratory or academic setting.",
+      "Write literature reviews and practice drafting scientific abstracts.",
+      "Pursue advanced graduate studies (Master's or Ph.D.) to specialize in research."
+    ]
+  },
+  "Sports Professional": {
+    "description": "Sports Professionals focus on physical fitness, athletic excellence, and coaching. They manage teams, train athletes, study physical education, and promote healthy lifestyles.",
+    "roles": [
+      "Athletic Coach",
+      "Personal Trainer / Fitness Coach",
+      "Sports Club Manager",
+      "Physical Education (PE) Teacher",
+      "Sports Physiologist / Kinesiologist",
+      "Professional Athlete"
+    ],
+    "skills": [
+      "Athletic Coaching & Strategy",
+      "Anatomy, Kinesiology & Exercise Science",
+      "Motivational Skills & Leadership",
+      "Nutrition & Diet Planning",
+      "Sports Safety & Injury Prevention",
+      "Event Organization & Team Logistics"
+    ],
+    "alternatives": [
+      "Healthcare Professional",
+      "Educator",
+      "Manager"
+    ],
+    "learning_path": [
+      "Maintain a high level of physical fitness and participate in competitive sports.",
+      "Study exercise science, kinesiology, nutrition, and sports psychology.",
+      "Obtain standard fitness training or coaching credentials (e.g., NASM, ACE).",
+      "Gain experience coaching youth leagues, gym clients, or sports camps.",
+      "Learn basic first aid, sports medicine, and injury prevention techniques.",
+      "Build a network in sports management or sports education fields."
+    ]
+  }
+}

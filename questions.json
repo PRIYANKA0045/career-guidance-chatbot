@@ -1,0 +1,486 @@
+{
+  "q1": {
+    "text": "What type of activities do you find most appealing?",
+    "options": [
+      {
+        "text": "Working with technologies, building things, or analyzing data",
+        "next_question": "q2_stem",
+        "effects": {}
+      },
+      {
+        "text": "Creating visual art, writing, or physical/sports activities",
+        "next_question": "q2_creative",
+        "effects": {}
+      },
+      {
+        "text": "Leading groups, teaching, or caring for others",
+        "next_question": "q2_social",
+        "effects": {}
+      }
+    ]
+  },
+  "q2_stem": {
+    "text": "Within science and technology, where does your interest lean?",
+    "options": [
+      {
+        "text": "Software, coding, and digital systems",
+        "next_question": "q3_tech",
+        "effects": {
+          "trait_coding_logic": 1.5,
+          "trait_math_analytical": 0.5
+        }
+      },
+      {
+        "text": "Physical machines, robotics, or hardware design",
+        "next_question": "q3_eng",
+        "effects": {
+          "trait_physical_mechanical": 1.5,
+          "trait_math_analytical": 0.5
+        }
+      },
+      {
+        "text": "Theoretical science, data patterns, or scientific research",
+        "next_question": "q3_sci",
+        "effects": {
+          "trait_scientific_inquiry": 1.5,
+          "trait_math_analytical": 0.5
+        }
+      }
+    ]
+  },
+  "q2_creative": {
+    "text": "What kind of creative work resonates with you?",
+    "options": [
+      {
+        "text": "Visual layouts, UI/UX, or graphic design",
+        "next_question": "q3_design",
+        "effects": {
+          "trait_visual_creativity": 1.5
+        }
+      },
+      {
+        "text": "Reading, analyzing text, debate, or writing articles",
+        "next_question": "q3_writing",
+        "effects": {
+          "trait_writing_argument": 1.5
+        }
+      },
+      {
+        "text": "Athletic activities, fitness training, or outdoor sports",
+        "next_question": "q3_sports",
+        "effects": {
+          "trait_physical_mechanical": 1.5
+        }
+      }
+    ]
+  },
+  "q2_social": {
+    "text": "What role do you prefer when working with others?",
+    "options": [
+      {
+        "text": "Organizing teams, planning strategy, or managing business operations",
+        "next_question": "q3_biz",
+        "effects": {
+          "trait_leadership_strategy": 1.5,
+          "trait_risk_operations": 0.5
+        }
+      },
+      {
+        "text": "Helping individuals, clinical care, or health support",
+        "next_question": "q3_health",
+        "effects": {
+          "trait_empathy_caregiving": 1.5,
+          "trait_scientific_inquiry": 0.5
+        }
+      },
+      {
+        "text": "Teaching, training, or explaining complex concepts",
+        "next_question": "q3_edu",
+        "effects": {
+          "trait_teaching_mentoring": 1.5,
+          "trait_empathy_caregiving": 0.5
+        }
+      }
+    ]
+  },
+  "q3_tech": {
+    "text": "What type of software tasks do you enjoy?",
+    "options": [
+      {
+        "text": "Writing code, solving algorithms, and building backend logic",
+        "next_question": "q4",
+        "effects": {
+          "trait_coding_logic": 1.5
+        }
+      },
+      {
+        "text": "Analyzing databases, running queries, and drawing insights from data",
+        "next_question": "q4",
+        "effects": {
+          "trait_math_analytical": 1.5,
+          "trait_coding_logic": 0.5
+        }
+      }
+    ]
+  },
+  "q3_eng": {
+    "text": "What field of engineering excites you?",
+    "options": [
+      {
+        "text": "Robotics, aerospace, or mechanical systems",
+        "next_question": "q4",
+        "effects": {
+          "trait_physical_mechanical": 1.5,
+          "trait_math_analytical": 0.5
+        }
+      },
+      {
+        "text": "Electrical systems, circuits, or computer hardware",
+        "next_question": "q4",
+        "effects": {
+          "trait_physical_mechanical": 1.5,
+          "trait_coding_logic": 0.5
+        }
+      }
+    ]
+  },
+  "q3_sci": {
+    "text": "What style of research do you prefer?",
+    "options": [
+      {
+        "text": "Academic or scientific inquiry in a laboratory environment",
+        "next_question": "q4",
+        "effects": {
+          "trait_scientific_inquiry": 1.5
+        }
+      },
+      {
+        "text": "Statistical analysis, mathematical proofs, or financial modeling",
+        "next_question": "q4",
+        "effects": {
+          "trait_math_analytical": 1.5
+        }
+      }
+    ]
+  },
+  "q3_design": {
+    "text": "Where do you want to apply your design skills?",
+    "options": [
+      {
+        "text": "Digital platforms, website layouts, and mobile app UI/UX",
+        "next_question": "q4",
+        "effects": {
+          "trait_visual_creativity": 1.5,
+          "trait_coding_logic": 0.5
+        }
+      },
+      {
+        "text": "Physical branding, illustrations, print media, or fashion",
+        "next_question": "q4",
+        "effects": {
+          "trait_visual_creativity": 1.5
+        }
+      }
+    ]
+  },
+  "q3_writing": {
+    "text": "What is your main interest in language and communication?",
+    "options": [
+      {
+        "text": "Constructing logical arguments, analyzing policies, or interpreting laws",
+        "next_question": "q4",
+        "effects": {
+          "trait_writing_argument": 1.5,
+          "trait_leadership_strategy": 0.5
+        }
+      },
+      {
+        "text": "Creative storytelling, copywriting, or journalism",
+        "next_question": "q4",
+        "effects": {
+          "trait_writing_argument": 1.5,
+          "trait_visual_creativity": 0.5
+        }
+      }
+    ]
+  },
+  "q3_sports": {
+    "text": "What aspect of sports and fitness appeals to you most?",
+    "options": [
+      {
+        "text": "Competing, athletic training, and physical performance",
+        "next_question": "q4",
+        "effects": {
+          "trait_physical_mechanical": 1.5
+        }
+      },
+      {
+        "text": "Coaching others, planning workouts, and team sports management",
+        "next_question": "q4",
+        "effects": {
+          "trait_teaching_mentoring": 1.5,
+          "trait_leadership_strategy": 0.5
+        }
+      }
+    ]
+  },
+  "q3_biz": {
+    "text": "What area of business operations do you prefer?",
+    "options": [
+      {
+        "text": "Leading a startup, launching new initiatives, and taking calculated risks",
+        "next_question": "q4",
+        "effects": {
+          "trait_risk_operations": 1.5,
+          "trait_leadership_strategy": 0.5
+        }
+      },
+      {
+        "text": "Managing team structure, project timelines, and corporate strategy",
+        "next_question": "q4",
+        "effects": {
+          "trait_leadership_strategy": 1.5,
+          "trait_risk_operations": 0.5
+        }
+      }
+    ]
+  },
+  "q3_health": {
+    "text": "What area of healthcare is most interesting?",
+    "options": [
+      {
+        "text": "Medical diagnostics, surgery, or clinical treatments",
+        "next_question": "q4",
+        "effects": {
+          "trait_scientific_inquiry": 1.5,
+          "trait_empathy_caregiving": 0.5
+        }
+      },
+      {
+        "text": "Physical therapy, mental counseling, or direct patient care",
+        "next_question": "q4",
+        "effects": {
+          "trait_empathy_caregiving": 1.5
+        }
+      }
+    ]
+  },
+  "q3_edu": {
+    "text": "Who is your ideal audience for teaching?",
+    "options": [
+      {
+        "text": "Students in a classroom, school, or university setting",
+        "next_question": "q4",
+        "effects": {
+          "trait_teaching_mentoring": 1.5
+        }
+      },
+      {
+        "text": "Adult professionals, corporate training, or coaching clients",
+        "next_question": "q4",
+        "effects": {
+          "trait_teaching_mentoring": 1.5,
+          "trait_leadership_strategy": 0.5
+        }
+      }
+    ]
+  },
+  "q4": {
+    "text": "When working on a project, what is your preferred approach?",
+    "options": [
+      {
+        "text": "Structuring a clear plan, identifying risks, and organizing tasks",
+        "next_question": "q5",
+        "effects": {
+          "trait_risk_operations": 1.0,
+          "trait_leadership_strategy": 0.5
+        }
+      },
+      {
+        "text": "Diving straight into implementation, building, or writing code",
+        "next_question": "q5",
+        "effects": {
+          "trait_coding_logic": 1.0,
+          "trait_physical_mechanical": 0.5
+        }
+      },
+      {
+        "text": "Brainstorming creative ideas, visual sketches, and concepts",
+        "next_question": "q5",
+        "effects": {
+          "trait_visual_creativity": 1.0
+        }
+      }
+    ]
+  },
+  "q5": {
+    "text": "How do you feel about working with numbers, statistics, and datasets?",
+    "options": [
+      {
+        "text": "I enjoy finding patterns, running formulas, and making data-backed decisions",
+        "next_question": "q6",
+        "effects": {
+          "trait_math_analytical": 1.5
+        }
+      },
+      {
+        "text": "I prefer working with text, stories, or verbal communication",
+        "next_question": "q6",
+        "effects": {
+          "trait_writing_argument": 1.0,
+          "trait_teaching_mentoring": 0.5
+        }
+      },
+      {
+        "text": "I prefer working with physical materials, tools, or physical activity",
+        "next_question": "q6",
+        "effects": {
+          "trait_physical_mechanical": 1.0
+        }
+      }
+    ]
+  },
+  "q6": {
+    "text": "How do you prefer to interact with other people in your work?",
+    "options": [
+      {
+        "text": "I love leading teams, coordinating people, and speaking publicly",
+        "next_question": "q7",
+        "effects": {
+          "trait_leadership_strategy": 1.5,
+          "trait_teaching_mentoring": 0.5
+        }
+      },
+      {
+        "text": "I prefer supporting others one-on-one, listening, and counseling",
+        "next_question": "q7",
+        "effects": {
+          "trait_empathy_caregiving": 1.5
+        }
+      },
+      {
+        "text": "I work best independently, focusing deeply on my own tasks",
+        "next_question": "q7",
+        "effects": {
+          "trait_coding_logic": 0.5,
+          "trait_scientific_inquiry": 0.5
+        }
+      }
+    ]
+  },
+  "q7": {
+    "text": "What kind of workspace environment fits you best?",
+    "options": [
+      {
+        "text": "An office or remote desk setup with a computer",
+        "next_question": "q8",
+        "effects": {
+          "trait_coding_logic": 0.5,
+          "trait_math_analytical": 0.5,
+          "trait_writing_argument": 0.5
+        }
+      },
+      {
+        "text": "A dynamic environment like a lab, hospital, classroom, or courtroom",
+        "next_question": "q8",
+        "effects": {
+          "trait_scientific_inquiry": 0.5,
+          "trait_empathy_caregiving": 0.5,
+          "trait_teaching_mentoring": 0.5
+        }
+      },
+      {
+        "text": "Outdoors, sports facilities, workshops, or physical construction sites",
+        "next_question": "q8",
+        "effects": {
+          "trait_physical_mechanical": 1.0
+        }
+      }
+    ]
+  },
+  "q8": {
+    "text": "When faced with a complex problem, what is your first instinct?",
+    "options": [
+      {
+        "text": "Analyze it logically, break it down, or write a program to solve it",
+        "next_question": "q9",
+        "effects": {
+          "trait_coding_logic": 1.0,
+          "trait_math_analytical": 0.5
+        }
+      },
+      {
+        "text": "Discuss it with a group, teach/explain it, or coordinate a solution",
+        "next_question": "q9",
+        "effects": {
+          "trait_teaching_mentoring": 1.0,
+          "trait_leadership_strategy": 0.5
+        }
+      },
+      {
+        "text": "Research the background theory and read literature about it",
+        "next_question": "q9",
+        "effects": {
+          "trait_scientific_inquiry": 1.5
+        }
+      }
+    ]
+  },
+  "q9": {
+    "text": "What is your attitude toward rules, regulations, and details?",
+    "options": [
+      {
+        "text": "I enjoy analyzing rules, drafting agreements, or arguing cases",
+        "next_question": "q10",
+        "effects": {
+          "trait_writing_argument": 1.5,
+          "trait_risk_operations": 0.5
+        }
+      },
+      {
+        "text": "I prefer creative freedom without strict rules or boundaries",
+        "next_question": "q10",
+        "effects": {
+          "trait_visual_creativity": 1.0
+        }
+      },
+      {
+        "text": "I like structured, technical standards (e.g. coding syntax, engineering manuals)",
+        "next_question": "q10",
+        "effects": {
+          "trait_coding_logic": 0.5,
+          "trait_physical_mechanical": 0.5
+        }
+      }
+    ]
+  },
+  "q10": {
+    "text": "Which type of success metric would make you feel most proud?",
+    "options": [
+      {
+        "text": "Launching a high-quality product, software app, or physical build",
+        "next_question": null,
+        "effects": {
+          "trait_coding_logic": 1.0,
+          "trait_physical_mechanical": 0.5
+        }
+      },
+      {
+        "text": "Positively impacting someone's life, health, or education directly",
+        "next_question": null,
+        "effects": {
+          "trait_empathy_caregiving": 1.0,
+          "trait_teaching_mentoring": 0.5
+        }
+      },
+      {
+        "text": "Winning a business contract, leading a company, or winning a court case",
+        "next_question": null,
+        "effects": {
+          "trait_leadership_strategy": 1.0,
+          "trait_risk_operations": 0.5
+        }
+      }
+    ]
+  }
+}
