@@ -1,4 +1,5 @@
-# 🎯 AI Career Guidance Chatbot | Live Demo:- "https://ai-powered-career-guidance-chatbot.streamlit.app/"
+# 🎯 AI Career Guidance Chatbot 
+Live Demo:- "https://ai-powered-career-guidance-chatbot.streamlit.app/"
 
 An AI-powered Career Guidance System that helps students and job seekers discover suitable career paths based on their interests, skills, and preferences.
 
